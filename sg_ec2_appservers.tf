@@ -5,7 +5,7 @@ resource "aws_security_group" "appservers"
     Name = "${var.PROJECT_NAME}-ec2-appservers"
   }
   name = "${var.PROJECT_NAME}-ec2-appservers"
-  description = "Created by Cloudops"
+  description = "Created by Meghana"
   vpc_id      = "${aws_vpc.main.id}"
 
   ingress
