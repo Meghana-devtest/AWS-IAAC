@@ -5,7 +5,7 @@ resource "aws_security_group" "webservers_alb"
     Name = "${var.PROJECT_NAME}-webservers-ALB"
   }
   name = "${var.PROJECT_NAME}-webservers-ALB"
-  description = "Created by Cloudops"
+  description = "Created by Meghana"
   vpc_id      = "${aws_vpc.main.id}"
 
   ingress
