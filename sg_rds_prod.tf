@@ -4,7 +4,7 @@ resource "aws_security_group" "rds-prod"
     Name = "${var.PROJECT_NAME}-rds-production"
   }
   name = "${var.PROJECT_NAME}-rds-production"
-  description = "Created by Cloudops"
+  description = "Created by Meghana"
   vpc_id      = "${aws_vpc.main.id}"
   ingress
   {
